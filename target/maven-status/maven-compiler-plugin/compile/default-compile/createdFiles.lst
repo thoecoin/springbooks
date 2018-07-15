@@ -1,0 +1,10 @@
+com\test\dao\BooksDao.class
+com\test\config\WebConfig.class
+com\test\service\BookServiceImp.class
+com\test\controller\BooksController.class
+com\test\config\AppConfig.class
+com\test\dao\BooksDaoImp.class
+com\test\service\BooksService.class
+com\test\model\Books.class
+com\servlet\HelloWorldServlet.class
+com\test\config\MyWebAppInitializer.class
