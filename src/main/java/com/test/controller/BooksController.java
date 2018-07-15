@@ -70,8 +70,6 @@ public class BooksController {
 			meta.put("totalPages", (int) Math.ceil(totalData.size() / pageSize.doubleValue()));
 			meta.put("totalData", totalData.size());
 			map.put("meta", meta);
-			System.out.println("=-==-=-=-="+pageSize.doubleValue());
-			System.out.println("=-==-=-=-="+pageSize);
 		}
 		
 		return new Gson().toJson(map);
